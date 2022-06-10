@@ -1,0 +1,64 @@
+/* Псевдоклассы */
+
+span:first-child{
+  color: blue;
+}
+span:last-child{
+ color: red
+}
+span:nth-child(2){
+  color: yellow;
+}
+input:focus{
+  outline: aqua 1px solid;
+  width: 100px;
+}
+
+  /* Посещенные ссылки */
+a:visited{
+  color: blueviolet;
+}
+a:hover{
+  font-size: 24px;
+  color: palevioletred;
+  text-decoration: none;
+  }
+  a{
+    transition: all 0.5s;
+  }
+
+  /* Псевдоэлементы */
+
+  p::first-line{
+    color: pink;
+    font-weight: 700;
+    font-style: italic;
+  }
+  p::first-letter{
+    font-size: 40px;
+  }
+  input::placeholder{
+    color: rgb(25, 175, 25);
+  }
+  h3::before{
+    content: "🥰";
+  }
+  h3::after{
+    content: " emoji";
+  }
+
+strong:nth-child(1){
+  color: yellow;
+}
+strong:nth-child(2){
+  color: rgb(20, 201, 20);
+}
+
+b::after{
+  content:  "🥳";
+}
+/* .block p strong{} */
+
+/* !Что-то важное */
+/* TODO */
+/* ? */
